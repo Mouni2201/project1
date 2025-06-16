@@ -8,7 +8,7 @@ internal class Basic
     {
         Console.WriteLine("Hello World");
         Console.WriteLine("This is my first c# code");
-        Console.WriteLine("--------------------------------------------------------");
+        Console.WriteLine("------------------------------------------------");
         getStudentDetails();
         getPlayerDetails();
     }
