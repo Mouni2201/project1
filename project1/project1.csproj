@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DatatypeMinandMax</StartupObject>
+    <StartupObject>VarAndDynamic</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,7 @@
     <Compile Include="2.DataTypes.cs" />
     <Compile Include="DatatypeMinandMax.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="3.varanddynamic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".editorconfig" />
