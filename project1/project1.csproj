@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>VarAndDynamic</StartupObject>
+    <StartupObject>Strings</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="1.Basics.cs" />
     <Compile Include="2.DataTypes.cs" />
+    <Compile Include="4. String.cs" />
     <Compile Include="DatatypeMinandMax.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="3.varanddynamic.cs" />
