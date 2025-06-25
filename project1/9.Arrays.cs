@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 class Arrays
 
@@ -60,6 +61,17 @@ class Arrays
         //}
 
 
+        string[] books = { "maths, Hindi, Telugu" };
+        int booklength = books.Length;
+        //Console.WriteLine(books[0]); //it will throw error in future real time examples
+        //books[books.Length - 1];
+        foreach(string book in books)
+        {
+            if (book == "maths")
+            {
+                Console.WriteLine("Yes!!! Maths book Is available");
+            }
+        }
 
 
     }
