@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConditionalStatements</StartupObject>
+    <StartupObject>MethodWithParam_Returntypes</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -56,6 +56,11 @@
     <Compile Include="9.Arrays.cs" />
     <Compile Include="10.ConditionStatements.cs" />
     <Compile Include="3.DatatypeMinandMax.cs" />
+    <Compile Include="Methods\MethodBasic.cs" />
+    <Compile Include="Methods\methods.cs" />
+    <Compile Include="Methods\MethodswithReturnType.cs" />
+    <Compile Include="Methods\MethodWithParam&amp;Returntypes.cs" />
+    <Compile Include="Methods\MethodWithParams.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="4.varanddynamic.cs" />
   </ItemGroup>
