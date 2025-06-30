@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MethodWithParam_Returntypes</StartupObject>
+    <StartupObject>Methodexamples</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -56,6 +56,7 @@
     <Compile Include="9.Arrays.cs" />
     <Compile Include="10.ConditionStatements.cs" />
     <Compile Include="3.DatatypeMinandMax.cs" />
+    <Compile Include="Methods\Methodexamples.cs" />
     <Compile Include="Methods\MethodBasic.cs" />
     <Compile Include="Methods\methods.cs" />
     <Compile Include="Methods\MethodswithReturnType.cs" />

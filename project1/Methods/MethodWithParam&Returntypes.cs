@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Globalization;
-using System.Web;
 
 
 class MethodWithParam_Returntypes
