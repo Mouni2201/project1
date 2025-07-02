@@ -22,12 +22,12 @@ class Methodexamples
         Console.WriteLine($"Employees length{length}");
 
 
-        int[] Numbers = { 10, 20 };
-        int details = getUpdatednumber(Numbers);
-       foreach(int number in details)
-        {
-            Console.WriteLine(number);
-        }
+        //int[] Numbers = { 10, 20 };
+        //int details = getUpdatednumber(Numbers);
+        //foreach (int number in details)
+        //{
+        //    Console.WriteLine(number);
+        //}
     }
 
     static string getEmployeeDetails(int id)
@@ -58,28 +58,28 @@ class Methodexamples
 
     static string[] getEmployeeNames()
     {
-    string[] names = { "Dog", "cat" };
-    return names;
+        string[] names = { "Dog", "cat" };
+        return names;
     }
 
-static int getEmpNamesLengthByEmpNames(string[] names)
+    static int getEmpNamesLengthByEmpNames(string[] names)
     {
         int length = names.Length;
         return length;
     }
 
 
-    static int[] getUpdatednumber(string[] Names)
-    {
-        for (int i = 0; i < Numbers.Length; i++)
-        {
-            Numbers[i] = Numbers[i] = 2;
-        }
-        return Numbers;
-    }
-    {
+    //static int[] getUpdatednumber(string[] Names)
+    //{
+    //    for (int i = 0; i < Numbers.Length; i++)
+    //    {
+    //        Numbers[i] = Numbers[i] = 2;
+    //    }
+    //    return Numbers;
+    //}
 
-    }
+
+
 
 
 }
